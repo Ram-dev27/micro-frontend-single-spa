@@ -80,3 +80,9 @@ npm start
 cd ../microApp-sideMenu
 npm start
 ```
+Application image
+![image](https://github.com/ram1257/micro-frontend-single-spa/assets/129826933/60efecf5-6d37-4081-86e4-52d9ecdb1851)
+![image](https://github.com/ram1257/micro-frontend-single-spa/assets/129826933/abbb2c3a-1909-4d3c-8891-49d304a66d78)
+![image](https://github.com/ram1257/micro-frontend-single-spa/assets/129826933/4ad89e8d-8e4f-4c3d-987c-ed654a4d8fc8)
+
+
