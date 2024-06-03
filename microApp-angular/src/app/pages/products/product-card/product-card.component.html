@@ -1,0 +1,10 @@
+<div class="card mb-4 shadow-sm">
+    <img [src]="product.image" class="card-img-top product-image" alt="{{ product.name }}">
+    <div class="card-body">
+      <h5 class="card-title product-name">{{ product.title }}</h5>
+      <p class="card-text product-description">{{ product.description }}</p>
+      <p class="card-text"><strong>${{ product.price }}</strong></p>
+      <button class="btn btn-primary" routerLink="/react" (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div>
+  

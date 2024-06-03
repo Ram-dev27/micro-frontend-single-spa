@@ -1,0 +1,21 @@
+<single-spa-router>
+  <aside>
+    <application name="@microApplication/microApp-sideMenu"></application>
+  </aside>
+
+  <main style="margin-left: 200px">
+    <route path="angular">
+      <application name="@microApplication/microApp-angular"></application>
+    </route>
+    <route path="react">
+      <application name="@microApplication/microApp-react"></application>
+    </route>
+    <route default>
+      <p style="text-align: center; padding-top: 20px">
+        This single page render both angular and react applications
+      </p>
+      <application name="@microApplication/microApp-react"></application>
+      <application name="@microApplication/microApp-angular"></application>
+    </route>
+  </main>
+</single-spa-router>

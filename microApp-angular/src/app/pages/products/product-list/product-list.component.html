@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="d-flex justify-content-center align-items-center" *ngIf="isLoading">
+      <h4 class=" fw-bold">Loading...</h4>
+    </div>
+    <ng-container *ngIf="!isLoading">
+      <div class="col-md-4" *ngFor="let product of products">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </ng-container>
+  </div>
+</div>
